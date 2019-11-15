@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: dimgray;
+}
+li {
+    display: inline;
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+.prijava{
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 30px;
+}
+
+.link_gore:hover{
+    text-decoration: underline;
+
+}
+.slika{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+.pretraga{
+
+    position: absolute;
+    top: 320px;
+    left: 355px;
+}
+.polje{
+    width: 650px;
+    height: 40px;
+    border-radius: 70px;
+    border: solid #F5F5F5;
+    text-indent:40px;
+   }
+
+.fa-search{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    color: darkgrey;
+}
+.fa-microphone{
+    position: absolute;
+    top: 15px;
+    left: 627px;
+    color: darkgrey;
+}
+.fa-keyboard-o{
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    color: black;
+
+}
+.ispod{
+    position: absolute;
+    top: 72px;
+    left: 185px;
+    width: 130px;
+    height: 30px;
+    background-color: 	#F5F5F5;
+    text-align: center;
+    padding-top: 10px;
+     border-radius: 5px;
+}
+.ispod2{
+    position: absolute;
+    top: 72px;
+    left: 340px;
+    width: 100px;
+    height: 30px;
+    background-color: 	#F5F5F5;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+.linkovi_dole{
+    background-color: 	#F5F5F5;
+
+
+}
+.ispod:hover{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+}
+.ispod2:hover{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+}
+.opis{
+   position: absolute;
+    top: 132px;
+    left: 240px;
+}
+.gore{
+     position: absolute;
+    top: 15px;
+    left:10px;
+}
+
+.polje2{
+    width: 650px;
+    height: 40px;
+    border-radius: 70px;
+    border: solid #F5F5F5;
+    text-indent:40px;
+    position: absolute;
+    left:150px;
+   }
+
+.fa-search-plus{
+    position: absolute;
+    left:160px;
+    top: 15px;
+    color: blue;
+}
+
+.fa-microphone-slash{
+    position: absolute;
+    left:770px;
+    top: 15px;
+    color: red;
+}
+.sadrzaj{
+    position: absolute;
+    left:160px;
+    top: 75px;
+}
+.fa-search-minus, .fa-picture-o, .fa-file-video-o,.fa-address-card-o, .fa-globe{
+    padding-left: 7px;
+    padding-right: 7px;
+    color:gray;
+}
+/*.fa-picture-o{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.fa-file-video-o{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.fa-address-card-o{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.fa-globe{
+    padding-left: 7px;
+    padding-right: 7px;
+    color:gray;
+}*/
+
+.linija{
+    padding-top: 99px;
+    border: 1px solid lightgray;
+}
+.fa-search-minus:hover, .fa-picture-o:hover, .fa-file-video-o:hover,.fa-address-card-o:hover, .fa-globe:hover{
+    color: blue;
+}
+.slova{
+    color: gray;
+    display: inline;
+}
+
+.active{
+    color: red;
+}
+.ponuda{
+     position: absolute;
+    left:160px;
+    top: 110px;
+
+}
+.red{
+    color: gray;
+}
+.prvi{
+    font-size: 20px;
+    padding-top: 10px;
+    color: darkblue;
+}
+.prvi1{
+    font-size: 20px;
+
+    color: darkblue;
+}
+.zeleni{
+    color: green;
+    display: inline;
+}
+.prvi:hover, .prvi1:hover{
+
+    text-decoration: underline;
+}
+.prvi1:visited{
+    color: purple;
+}
+.pitanja{
+    border: 1px solid lightgray;
+    text-indent:20px;
+    font-size: 15px;
+    color: grey;
+    border-radius: 20px;
+    width: 700px;
+
+
+}
+.redosled{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.redosled1{
+    padding: 10px;
+}
+.redosled0{
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid lightgray;
+    font-size: 18px;
+}
+
+.fa-chevron-down{
+    float: right;
+}
+.redosled2{
+  text-indent:500px;
+}
+.donja_slika{
+   position: absolute;
+    left:290px;
+    top: 1360px;
+   }
+.slovo1{
+    font-size: 40px;
+    color: blue;
+    display: inline;
+}
+.slovo2{
+    font-size: 40px;
+    color: red;
+    display: inline;
+}
+.slovo3{
+    font-size: 40px;
+    color: yellow;
+    display: inline;
+}
+.slovo4{
+    font-size: 40px;
+    color: green;
+    display: inline;
+}
+.brojevi{
+
+    letter-spacing: 14px;
+    color: blue;
+    display: inline;
+}
+.brojevi2{
+
+   display: inline;
+    color: blue;
+}
+.brojevi0{
+   padding-left: 30px;
+    letter-spacing: 14px;
+   display: inline;
+
+}
+.opis2{
+    display: inline;
+    color: blue;
+}
